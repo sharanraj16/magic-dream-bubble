@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Cinzel', serif;
+    background-color: #f0f4f8;
+    color: #1b1614;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url('/assets/images/brooke-lark-Aq2GM7iV71A-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+a:hover {
+    text-decoration: none;
+    color: chocolate;
+}
+
+strong {
+    font-size: 1.3rem;
+    color: #f97127;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+/* Typography */
+h1 {
+    font-family: 'Protest Revolution', cursive;
+    font-size: 3rem;
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: 'Rye', cursive;
+    font-size: 2em;
+    color: #000000;
+    margin-top: 40px;
+    border-bottom: 2px solid #ff8400;
+    padding-bottom: 10px;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Layout and Containers */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.section {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+}
+
+.page-header {
+    height: 50vh;
+    background: center 75% / cover no-repeat;
+}
+
+#home {
+    background-image: url('/assets/images/ube-colada-cocktail-rendering_23-2150572711.jpg');
+    background-size: cover; 
+    background-position: center; 
+    height: 50vh; 
+    border: 5px solid rgb(250, 250, 250);
+}
+
+/* Sections and Specific Elements */
+.delivery-icon {
+    width: 100px;
+    height: auto;
+}
+
+/* Form Section */
+.form-section {
+    clear: left;
+    background-image: url('/assets/images/brooke-lark-Aq2GM7iV71A-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 750px;
+    margin-top: 0.5rem;
+}
+
+.signup-form {
+    margin: 75px 10% 0 0;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+}
+
+.signup-form > h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #ffa703;
+    color: #fafafa;
+    display: block;
+}
+
+.join-button:hover {
+    background-color: #66e6ff;
+    color: #ffbb00;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #000000;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #333;
+}
+
+/* Menu Items */
+.menu-item {
+    background: #e3e7ed;
+    margin: 10px 0;
+    padding: 15px;
+    border-left: 5px solid #f4ad09;
+    border-radius: 5px;
+}
+
+#tea-selection .menu-item, #specialty-drinks .menu-item {
+    background: #d0d5df;
+}
+
+#tea-selection ul, #specialty-drinks ul {
+    padding-left: 20px;
+}
+
+/* Flexbox Utilities */
+.flex {
+    display: flex;
+}
+
+.horizontal-center {
+    justify-content: center;
+}
+
+.vertical-center {
+    align-self: center;
+}
+
+.vertical-bottom {
+    align-self: flex-end;
+}
+
+.last {
+    order: 1;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    #interior {
+        flex-direction: column;
+    }
+
+    #interior img {
+        max-width: 100%;
+        flex: 1 1 100%;
+    }
+}
+
+#contact {
+    margin-bottom: 50px;
+}
+
+.contact-boxes-container {
+    width: 66%;
+    margin: 0 auto;
+}
+
+.contact-box-left {
+    width: 250px;
+    margin-top: -20px;
+    float: left;
+}
+
+.contact-box-right {
+    width: 250px;
+    text-align: right;
+    margin-top: -20px;
+    float: right;
+}
+
+.spacer {
+    clear: both;
+}
+
+.contact-box-center {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+th,
+td {
+    border-bottom: 1px solid rgb(254, 126, 6);
+}
+
+ul {
+    padding: 0;
+}
+
+#reasons li {
+    margin-top: 5%;
+}
+
+a:hover {
+    text-decoration: none;
+    color: chocolate;
+}
+
+.contact-box {
+    width: calc(33.33% - 20px); /* Adjust width as needed */
+    padding: 20px;
+    background-color: #fddbba;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.contact-box h2 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.contact-box p {
+    color: #f26b03;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.contact-box ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-box ul li {
+    margin-bottom: 5px;
+}
+
+.contact-box form {
+    text-align: left;
+}
+
+.contact-box input[type="text"],
+.contact-box input[type="email"],
+.contact-box textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #fd6f03;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contact-box textarea {
+    height: 100px;
+}
+
+.contact-box button {
+    background-color: #df7d44;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-box button:hover {
+    background-color: #45a049;
+}
+
+.delivery-logos {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Add space between logos */
+}
+
+.delivery-logos img {
+    width: 150px;
+    cursor: pointer;
+    border: 2px solid orange; /* Add orange border */
+}
+
+footer {
+    background-color: orange;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
+
+#map-wrapper {
+    height: 300px;
+    margin-bottom: 107px;
+}
