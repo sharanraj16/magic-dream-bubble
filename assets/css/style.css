@@ -15,7 +15,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-image: url('/assets/images/brooke-lark-Aq2GM7iV71A-unsplash.jpg');
+    background-image: url('../images/brooke-lark-Aq2GM7iV71A-unsplash.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -99,7 +99,7 @@ ul {
 }
 
 #home {
-    background-image: url('/assets/images/ube-colada-cocktail-rendering_23-2150572711.jpg');
+    background-image: url('../images/ube-colada-cocktail-rendering_23-2150572711.jpg');
     background-size: cover; 
     background-position: center; 
     height: 50vh; 
@@ -115,7 +115,7 @@ ul {
 /* Form Section */
 .form-section {
     clear: left;
-    background-image: url('/assets/images/brooke-lark-Aq2GM7iV71A-unsplash.jpg');
+    background-image: url('../images/brooke-lark-Aq2GM7iV71A-unsplash.jpg');
     background-size: cover;
     background-position: center;
     height: 750px;
