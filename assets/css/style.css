@@ -99,7 +99,7 @@ ul {
 }
 
 #home {
-    background-image: url('/assets/images/ube-colada-cocktail-rendering_23-2150572711.jpg');
+    background-image: url('./assets/images/ube-colada-cocktail-rendering_23-2150572711.jpg');
     background-size: cover; 
     background-position: center; 
     height: 50vh; 
