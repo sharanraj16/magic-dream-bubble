@@ -60,7 +60,7 @@
 ![lighthouseimage](assets/readmeimages/lighthouse.png)
 ![lighthouseimage](assets/readmeimages/lighthouse2.png)
 
-## Performance: 88
+## Performance: 96
 The performance score of 88 indicates that the website is well-optimized but has room for improvement. Key areas to focus on may include reducing the size of images, leveraging browser caching, minimizing JavaScript, and improving server response times. This score suggests that while the site loads relatively quickly, further enhancements can provide an even faster and more seamless user experience.
 
 ## Accessibility: 90
