@@ -1,35 +1,35 @@
 <!DOCTYPE html>
 <html lang="en-us">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="assets/css/style.css" rel="stylesheet">
-        <title>Magic Dream Bubble</title>
-        <meta name="description" content="Magic Dream Bubble - The ultimate destination for tea lovers. Explore our menu, contact us for inquiries, or visit us at our Frankfurt office.">
-        <meta name="keywords" content="Tea, Magic Dream Bubble, Frankfurt, Tea lovers">
-        <meta name="author" content="Magic Dream Bubble">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <title>Magic Dream Bubble</title>
+    <meta name="description" content="Magic Dream Bubble - The ultimate destination for tea lovers. Explore our menu, contact us for inquiries, or visit us at our Frankfurt office.">
+    <meta name="keywords" content="Tea, Magic Dream Bubble, Frankfurt, Tea lovers">
+    <meta name="author" content="Magic Dream Bubble">
+</head>
 <body>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-     <!--Header-->
+    <!--Header-->
     <header class="text-center page-header flex horizontal-center" id="home">
-		<div class="vertical-center">
-    		<h1>We are magic dream bubble!</h1>
-    		<p>The ultimate destination for Tea lover's</p>
-		</div>
-	</header>
-     <!--Navigation menu-->
-     <nav class="navbar">
-		<a href="index.html" aria-label="Go to the main page">Home</a>
-		<a href="menu.html" aria-label="Go to  menu page">Menu</a>
-		<a href="contactus.html" aria-label="Go to contact information page">Contact</a>
-		<a href="signup.html" aria-label="signup for news letter here">sign up</a>
-	</nav>
-	<main>
+        <div class="vertical-center">
+            <h1>We are magic dream bubble!</h1>
+            <p>The ultimate destination for Tea lover's</p>
+        </div>
+    </header>
+    <!--Navigation menu-->
+    <nav class="navbar">
+        <a href="index.html" aria-label="Go to the main page">Home</a>
+        <a href="menu.html" aria-label="Go to menu page">Menu</a>
+        <a href="contactus.html" aria-label="Go to contact information page">Contact</a>
+        <a href="signup.html" aria-label="signup for news letter here">sign up</a>
+    </nav>
+    <main>
         <!--Form Section-->
         <section class="form-section">
-            <form method="get" action="formconfirmation.html" class="signup-form">
+            <form method="get" action="formconfirmation.html" class="signup-form" onsubmit="return showConfirmation()">
                 <h2>Sign up here for our special offers!</h2>
 
                 <label for="fname">First Name</label>
@@ -57,27 +57,28 @@
             </form>
 
         </section>
-		<script>
-        function showConfirmation() {
-            alert("Thank you for signing up!");
-            return true; // Proceed with form submission
-        }
-    </script>
+        <script>
+            function showConfirmation() {
+                alert("Thank you for signing up!");
+                return true; // Proceed with form submission
+            }
+        </script>
     </main>
- <!-- Footer -->
- <footer>
-    <a href="https://www.facebook.com/">
-    <ion-icon name="logo-facebook"></ion-icon> </a> 
-    <a href="https://www.instagram.com/">
-    <ion-icon name="logo-instagram"></ion-icon>
-    </a>
-    <a href="https://www.twitter.com/">
-        <ion-icon name="logo-twitter"></ion-icon>
-    </a>
-    <a href="https://www.youtube.com/">
-        <ion-icon name="logo-youtube"></ion-icon>
-    </a>
-    <h3>&copy; 2024 Magic Dream Bubble. All rights reserved.</h3>
-</footer>	
+    <!-- Footer -->
+    <footer>
+        <a href="https://www.facebook.com/">
+            <ion-icon name="logo-facebook"></ion-icon>
+        </a>
+        <a href="https://www.instagram.com/">
+            <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+        <a href="https://www.twitter.com/">
+            <ion-icon name="logo-twitter"></ion-icon>
+        </a>
+        <a href="https://www.youtube.com/">
+            <ion-icon name="logo-youtube"></ion-icon>
+        </a>
+        <h3>&copy; 2024 Magic Dream Bubble. All rights reserved.</h3>
+    </footer>
 </body>
 </html>
